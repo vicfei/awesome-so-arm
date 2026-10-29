@@ -53,6 +53,7 @@ The VLM-agent / harness niche for SO-ARM is still sparse — most robot-use agen
 
 - [SO-ARM101: from unboxing to first dataset on a WSL2 laptop](https://github.com/vicfei/robot-learning-journey/blob/main/docs/05-so101-real-robot-first-data.md) — no-sudo WSL2, USB-serial via TCP bridge, Feetech-SDK patching, calibration, scripted-expert data collection, MJPEG camera streaming; includes a full troubleshooting log (raw-bytes-first rule, COM handle hygiene, incremental saves).
 - [Robot Use Agent roadmap for SO-ARM](https://github.com/vicfei/robot-learning-journey/blob/main/docs/06-robot-use-agent-roadmap.md) — planner/primitives/executor/verifier harness design with code-veto safety layering.
+- [Paper vs hardware: papers re-tested on an SO-101](https://shissorobotics.com/papers/) — robot-learning papers re-run on an SO-101 and a Jetson Orin NX, each with the bar written before the run, the verdict (most fail or are not proven), the cost and a folder that reproduces the numbers ([code](https://github.com/ravediamond/paper-vs-hardware)).
 
 ## Ecosystem Landscape
 
