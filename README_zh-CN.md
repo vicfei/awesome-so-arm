@@ -46,6 +46,7 @@
 SO-ARM 的 VLM-agent/harness 生态还很稀疏——多数 robot-use agent 工作针对其他平台。相关努力：
 
 - [jixinyan/Embodied-DeepSeek-Harness](https://github.com/jixinyan/Embodied-DeepSeek-Harness) — 可组合 agent 团队+可插拔机器人接口（TypeScript，插件架构值得借鉴）。
+- [vicfei/so_arm_agent](https://github.com/vicfei/so_arm_agent) — SO-ARM101 的 planner/原语/executor/verifier harness：LLM 低频咨询、确定性原语 + 代码否决 supervisor、mock 先行开发。
 - 如果你在做驱动 SO-ARM 的 LLM/VLM harness，欢迎提 PR 入列。
 
 ## 实践指南（社区）

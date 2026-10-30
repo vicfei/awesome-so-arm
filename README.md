@@ -47,6 +47,7 @@ Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Star counts ar
 The VLM-agent / harness niche for SO-ARM is still sparse — most robot-use agent work targets other platforms. Related efforts:
 
 - [jixinyan/Embodied-DeepSeek-Harness](https://github.com/jixinyan/Embodied-DeepSeek-Harness) — composable agent teams with pluggable robot interfaces (TypeScript, plugin architecture worth studying).
+- [vicfei/so_arm_agent](https://github.com/vicfei/so_arm_agent) — planner / primitives / executor / verifier harness for SO-ARM101: LLM as low-frequency consultant, deterministic primitives with a code-veto supervisor, mock-first development.
 - If you are building an LLM/VLM harness that drives an SO-ARM, please open a PR.
 
 ## Practice Guides (community)
