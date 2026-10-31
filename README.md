@@ -54,6 +54,7 @@ The VLM-agent / harness niche for SO-ARM is still sparse — most robot-use agen
 
 - [SO-ARM101: from unboxing to first dataset on a WSL2 laptop](https://github.com/vicfei/robot-learning-journey/blob/main/docs/05-so101-real-robot-first-data.md) — no-sudo WSL2, USB-serial via TCP bridge, Feetech-SDK patching, calibration, scripted-expert data collection, MJPEG camera streaming; includes a full troubleshooting log (raw-bytes-first rule, COM handle hygiene, incremental saves).
 - [Robot Use Agent roadmap for SO-ARM](https://github.com/vicfei/robot-learning-journey/blob/main/docs/06-robot-use-agent-roadmap.md) — planner/primitives/executor/verifier harness design with code-veto safety layering.
+- [SO-101 parts list and cost](https://robotusecases.com/guides/so-101-parts-list-cost) — the README BOM totals next to US retail prices we checked on Oct 30, 2026: $131.69 for one follower arm and $254.48 for a leader-follower pair before shipping, plus how much PLA a follower frame takes.
 
 ## Ecosystem Landscape
 
