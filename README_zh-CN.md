@@ -57,6 +57,7 @@ SO-ARM 的 VLM-agent/harness 生态还很稀疏——多数 robot-use agent 工�
 
 - [SO-ARM101：从开箱到首批数据（WSL2 笔记本）](https://github.com/vicfei/robot-learning-journey/blob/main/docs/05-so101-real-robot-first-data.md) — 无 sudo 的 WSL2、USB 串口走 TCP 桥、Feetech SDK 补丁、校准、程序专家数据采集、MJPEG 相机流；附完整排障记录（先抓原始字节、串口句柄卫生、增量保存）。
 - [SO-ARM 的 Robot Use Agent 路线图](https://github.com/vicfei/robot-learning-journey/blob/main/docs/06-robot-use-agent-roadmap.md) — planner/原语/executor/verifier 的 harness 设计，含代码否决安全分层。
+- [Paper vs hardware：论文在 SO-101 上复测](https://shissorobotics.com/papers/) — 机器人学习论文在 SO-101 + Jetson Orin NX 上重跑：每条先提交通过线再跑、给出判决（多数失败或未被证实）、附成本与数字可秒级复算的目录（[代码](https://github.com/ravediamond/paper-vs-hardware)）。
 
 ## 生态快照
 
