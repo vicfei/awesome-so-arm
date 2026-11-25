@@ -29,6 +29,10 @@
 - [brukg/SO-100-arm](https://github.com/brukg/SO-100-arm) — v1.3 的 C++ 固件线。
 - 舵机批次提示：兼容克隆（如 HX 系列）说 Feetech 协议但出厂波特率可能是非默认值——先扫描再假设 115200。
 
+## 标定与工具
+
+- [fport/so101-calibrator](https://github.com/fport/so101-calibrator) — 终端里的 SO-101 分步标定：检查电机 ID、供电电压、运动范围和关节方向，每次标定都保存为一个版本，并导出 LeRobot 文件。自带模拟机械臂。
+
 ## 仿真与 ROS
 
 - [ros-physical-ai/ros2_so_arm](https://github.com/ros-physical-ai/ros2_so_arm) — SO-ARM100/101 的 ROS 2 描述+驱动+MoveIt 配置。

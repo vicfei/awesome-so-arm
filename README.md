@@ -29,6 +29,10 @@ Contributions welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). Star counts ar
 - [brukg/SO-100-arm](https://github.com/brukg/SO-100-arm) — v1.3 C++ firmware line.
 - Servo batch notes: compatible clones (e.g. HX-series) speak the Feetech protocol but may ship at non-default baudrates — scan before you assume 115200.
 
+## Calibration & Tools
+
+- [fport/so101-calibrator](https://github.com/fport/so101-calibrator) — step-by-step SO-101 calibration in the terminal: checks motor ids, supply voltage, ranges and joint directions, keeps every calibration as a version and exports LeRobot files. Includes a simulated arm.
+
 ## Simulation & ROS
 
 - [ros-physical-ai/ros2_so_arm](https://github.com/ros-physical-ai/ros2_so_arm) — ROS 2 description + drivers + MoveIt config for SO-ARM100/101.
